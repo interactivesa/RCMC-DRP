@@ -7,7 +7,7 @@
         "../sass/_direction-ltr.scss",
         "../sass/_fonts.scss",
         "../sass/_rules.scss",
-        "../sass/_customAO.scss",
+        "../sass/_custom.scss",
         "../sass/_media.scss"
     ],
     "names": [],
