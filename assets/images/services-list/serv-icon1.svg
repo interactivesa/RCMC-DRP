@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="52" viewBox="0 0 72 52">
+  <g id="serv-icon1" transform="translate(-1 -3195.802)">
+    <rect id="base" width="72" height="52" transform="translate(1 3195.802)" fill="none"/>
+    <g id="building-4" transform="translate(7 3198.792)">
+      <path id="Path_122793" data-name="Path 122793" d="M1,22H59.085" transform="translate(0 20.091)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Path_122796" data-name="Path 122796" d="M2.1,42.091V9.225C2.1,5.089,4.158,3.01,8.254,3.01H21.075c4.1,0,6.133,2.079,6.133,6.215V42.091" transform="translate(1.164 0)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Path_122797" data-name="Path 122797" d="M5.8,8.25H15.987" transform="translate(5.078 5.544)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Path_122798" data-name="Path 122798" d="M5.8,12H15.987" transform="translate(5.078 9.511)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Path_122799" data-name="Path 122799" d="M8.25,25.967V18.25" transform="translate(7.67 16.124)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <g id="location-add" transform="translate(36.436 13.794)">
+        <path id="Path_122800" data-name="Path 122800" d="M9.25,11h7.912" transform="translate(-1.881 0.82)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+        <path id="Path_122801" data-name="Path 122801" d="M12,16.162V8.25" transform="translate(-0.675 -0.339)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+        <path id="Path_122802" data-name="Path 122802" d="M3.7,10.524C6.283-.85,23.134-.837,25.708,10.537c1.51,6.672-2.64,12.319-6.278,15.813a6.821,6.821,0,0,1-9.469,0C6.336,22.856,2.186,17.2,3.7,10.524Z" transform="translate(-3.377 -2)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

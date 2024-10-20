@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="../assets/css/styleRTL.css" />
+
+    <title>Map</title>
+  </head>
+
+  <body>
+
+
+    <section class="map-area">
+      <section class="map-bg">
+        <div class="kadwa-bg d-block">
+          <img src="../assets/images/home/map/kadwa.jpg" alt="">
+        </div>
+
+        <div class="nakasa-bg d-none">
+          <img src="../assets/images/home/map/nakasa.jpg" alt="">
+        </div>
+
+        <div class="sharashef-bg  d-none">
+          <img src="../assets/images/home/map/sharashef.jpg" alt="">
+        </div>
+
+        <div class="azeezia-bg d-none">
+          <img src="../assets/images/home/map/azezia.jpg" alt="">
+        </div>
+
+        <div class="zohor-bg  d-none">
+          <img src="../assets/images/home/map/zohor.jpg" alt="">
+        </div>
+
+      
+        <div class="saad-bg  d-none">
+          <img src="../assets/images/home/map/agyad-sad.jpg" alt="">
+        </div>
+
+        <div class="masafy-bg d-none">
+          <img src="../assets/images/home/map/agyad-msafi.jpg" alt="">
+        </div>
+
+        <div class="khaldia-bg d-none">
+          <img src="../assets/images/home/map/khaldia.jpg" alt="">
+        </div>
+
+        <div class="hendawia-bg  d-none">
+          <img src="../assets/images/home/map/hidawia.jpg" alt="">
+        </div>
+
+        <div class="salama-bg d-none">
+          <img src="../assets/images/home/map/salama.jpg" alt="">
+        </div>
+
+        <div class="hagla-bg  d-none">
+          <img src="../assets/images/home/map/hagla.jpg" alt="">
+        </div>
+
+        <div class="eslam-bg d-none">
+          <img src="../assets/images/home/map/sahat-eslam.jpg" alt="">
+        </div>
+
+        <div class="gemeza-bg  d-none">
+          <img src="../assets/images/home/map/gemeza-sharqia.jpg" alt="">
+        </div>
+
+        <div class="zahraa-bg  d-none">
+          <img src="../assets/images/home/map/zahra-ganobia.jpg" alt="">
+        </div>
+
+        <div class="nozha-bg  d-none">
+          <img src="../assets/images/home/map/nozha.jpg" alt="">
+        </div>
+
+        <div class="sard-bg  d-none">
+          <img src="../assets/images/home/map/sard.jpg" alt="">
+        </div>
+        
+        <div class="galeel-bg  d-none">
+          <img src="../assets/images/home/map/galel.jpg" alt="">
+        </div>
+
+        <div class="taneem-bg  d-none">
+          <img src="../assets/images/home/map/tan3em-shamalia.jpg" alt="">
+        </div>
+
+        <div class="ekeshia-bg  d-none">
+          <img src="../assets/images/home/map/ekeshia-ganobia.jpg" alt="">
+        </div>
+
+        <div class="safwa-bg d-none">
+          <img src="../assets/images/home/map/safwa.jpg" alt="">
+        </div>
+
+        <div class="tab4 d-none">
+          <img src="../assets/images/home/map/another.jpg" alt="">
+        </div>
+
+      </section>
+
+      <div class="container">
+        <!-- <h1 class="patternIcon">Hello, world!</h1> -->
+        <section class="interactive-map" >
+          <div class="container">
+            <div class="map-cont">
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="main-content">
+                    <h2>
+                      مواقع تحت الدراسة في مدينة مكة المكرمة
+                    </h2>
+                
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <ul class="nav nav-pills " id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="all-tab" data-bs-toggle="pill" data-bs-target="#All" type="button" role="tab" aria-controls="All" aria-selected="true">
+                        الكل
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="removed-tab" data-bs-toggle="pill" data-bs-target="#Removed" type="button" role="tab" aria-controls="Removed" aria-selected="true">
+                        مناطق تم التعامل معها مسبقاً
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="loc-tab" data-bs-toggle="pill" data-bs-target="#Loc" type="button" role="tab" aria-controls="Loc" aria-selected="false">
+                        مناطق تم احالتها لرؤى الحرم
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="dev-tab" data-bs-toggle="pill" data-bs-target="#Dev" type="button" role="tab" aria-controls="Dev" aria-selected="false">
+                        مناطق المجموعة الأولى
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="study-tab" data-bs-toggle="pill" data-bs-target="#Study" type="button" role="tab" aria-controls="Study" aria-selected="false">
+                        مناطق المجموعة الثانية 
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="studyTwo-tab" data-bs-toggle="pill" data-bs-target="#StudyTwo" type="button" role="tab" aria-controls="StudyTwo" aria-selected="false">
+                        مناطق المجموعة الثالثة
+                      </button>
+                    </li>
+                   
+                  </ul>
+                </div>
+                <div class="col-lg-12">
+                  <div class="tab-content" id="pills-tabContent">
+                     <!-- Tab 1 Content -->
+                     <div class="tab-pane fade show active" id="All" role="tabpanel" aria-labelledby="all-tab">
+                      <div class="row">
+                        <div class="col-lg-12">
+                         
+                          <div class="navigation-links">
+                            <a class="active" href="javascript:;" id="kadwa-link2">
+                              الكدوة
+                            </a>
+                            <a  id="nakasa-link2" href="javascript:;">
+                              قوز النكاسة
+                            </a>
+                            <a  href="javascript:;" id="sharashef-link2">
+                              جبل الشراشف
+                            </a>
+                            <a  id="azeezia-link2" href="javascript:;">
+                              العزيزية (درب المشاعر)
+                            </a>
+                            <a  id="zohor-link2" href="javascript:;">
+                              الزهور
+                            </a>
+                            <a href="javascript:;" id="saad-link2">
+                              أجياد السد
+                            </a>
+                            <a  id="masafy-link2" href="javascript:;">
+                              أجياد المصافي
+                            </a>
+                            <a  id="khaldia-link2" href="javascript:;">
+                              الخالدية
+                            </a>
+                            <a  id="hendawiaEs-link2" href="javascript:;">
+                              الهنداوية الشرقية
+                            </a>
+                            <a  id="hendawiaWes-link2" href="javascript:;">
+                              الهنداوية الغربية
+                            </a>
+                            <a  id="hendawiSo-link2" href="javascript:;">
+                              الهنداوية الجنوبية
+                            </a>
+                            <a  id="salamaSo-link2" href="javascript:;">
+                              السلامة الجنوبية
+                            </a>
+                            <a  id="salamaM-link2" href="javascript:;">
+                              السلامة الوسطى
+                            </a>
+                            <a  id="salamaNo-link2" href="javascript:;">
+                              السلامة الشمالية
+                            </a>
+
+                            <a  id="hagla-link2" href="javascript:;">
+                              الهجلة
+                            </a>
+                            <a  id="eslam-link2" href="javascript:;">
+                              ساحة إسلام
+                            </a>
+                            <a  id="gemeza-link2" href="javascript:;">
+                              الجمّيزة الشرقية
+                            </a>
+                            <a  id="zahraa-link2" href="javascript:;">
+                              الزهراء الجنوبية
+                            </a>
+                            <a  id="nozha-link2" href="javascript:;">
+                              النزهة
+                            </a>
+                            <a  id="sard-link2" href="javascript:;">
+                              السرد
+                            </a>
+                            <a  id="galeelNo-link2" href="javascript:;">
+                              وادي جليل الشمالية
+                            </a>
+                            <a  id="galeelSo-link2" href="javascript:;">
+                              وادي جليل الجنوبية
+                            </a>
+                             <a  id="galeelM-link2" href="javascript:;">
+                              وادي جليل الوسطى
+                            </a>
+                             <a  id="taneem-link2" href="javascript:;">
+                              التنعيم الشمالية
+                            </a>
+                            <a  id="ekeshia-link2" href="javascript:;">
+                              العكيشية الجنوبية
+                            </a>
+                            <a  id="safwa-link2" href="javascript:;">
+                              الصفوة
+                            </a>
+                           
+
+                          </div>
+
+                          <div class="tags-content">
+                            <div class="kadwa-content">
+                              <h3>
+                                الكدوة
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="nakasa-content d-none">
+                              <h3>
+                                قوز النكاسة
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="sharashef-content d-none">
+                              <h3>
+                                جبل الشراشف
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="azeezia-content d-none">
+                              <h3>
+                                العزيزية (درب المشاعر)
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="zohor-content d-none">
+                              <h3>
+                                الزهور
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            
+                            <div class="saad-content d-none">
+                              <h3>
+                                أجياد السد
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="masafy-content d-none">
+                              <h3>
+                                أجياد المصافي
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="khaldia-content d-none">
+                              <h3>
+                                الخالدية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="hendawiaEs-content d-none">
+                              <h3>
+                                الهنداوية الشرقية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="hendawiaWes-content d-none">
+                              <h3>
+                                الهنداوية الغربية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="hendawiaSo-content d-none">
+                              <h3>
+                                الهنداوية الجنوبية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="salamaSo-content d-none">
+                              <h3>
+                                السلامة الجنوبية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="salamaM-content d-none">
+                              <h3>
+                                السلامة الوسطى
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="salamaNo-content d-none">
+                              <h3>
+                                السلامة الشمالية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="hagla-content d-none">
+                              <h3>
+                                الهجلة
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="eslam-content d-none">
+                              <h3>
+                              ساحة إسلام
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="gemeza-content d-none">
+                              <h3>
+                                الجمّيزة الشرقية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="zahraa-content d-none">
+                              <h3>
+                                الزهراء الجنوبية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="nozha-content d-none">
+                              <h3>
+                                النزهة
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="sard-content d-none">
+                              <h3>
+                                السرد
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="galeelNo-content d-none">
+                              <h3>
+                                وادي جليل الشمالية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="galeelSo-content d-none">
+                              <h3>
+                                وادي جليل الجنوبية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="galeelM-content d-none">
+                              <h3>
+                                وادي جليل الوسطى
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="taneem-content d-none">
+                              <h3>
+                                التنعيم الشمالية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="ekeshia-content d-none">
+                              <h3>
+                                العكيشية الجنوبية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="safwa-content d-none">
+                              <h3>
+                                الصفوة
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            
+                        
+
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <!-- Tab 2 Content -->
+                    <div class="tab-pane fade " id="Removed" role="tabpanel" aria-labelledby="removed-tab">
+                      <div class="row">
+                        <div class="col-lg-12">
+                         
+                          <div class="navigation-links">
+                            <a class="active" href="javascript:;" id="kadwa-link">
+                              الكدوة
+                            </a>
+                            <a  id="nakasa-link" href="javascript:;">
+                              قوز النكاسة
+                            </a>
+                          </div>
+
+                          <div class="tags-content">
+                            <div class="kadwa-content">
+                              <h3>
+                                الكدوة
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="nakasa-content d-none">
+                              <h3>
+                                قوز النكاسة
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Tab 3 Content -->
+                    <div class="tab-pane fade" id="Loc" role="tabpanel" aria-labelledby="loc-tab">
+                      <div class="no-tags">
+                        <h4>
+                          <span>
+                            الملاوي الغربيَّة
+                          </span>
+                          <span>
+                            جَرول
+                          </span>
+                          <span>
+                            السُّليمانيَّة
+                          </span>
+                          <span>
+                            البياري
+                          </span>
+                        </h4>
+                        <p>
+                          يتوَلَّى البرنامج الوطَنيُّ لِلتَّنمية المجتمعيَّة فِي المناطق (تَنمِية) إِجراءات نَزع الملكيَّات والتَّواصل مع مُلَّاك العقارات فِي تِلك المواقع
+                        </p>
+                      </div>
+                  </div>
+                  
+
+                    <!-- Tab 4 Content -->
+                    <div class="tab-pane fade" id="Dev" role="tabpanel" aria-labelledby="dev-tab">
+                      <div class="row">
+                        <div class="col-lg-12">
+                         
+                          <div class="navigation-links">
+                            <a class="active" href="javascript:;" id="sharashef-link">
+                              جبل الشراشف
+                            </a>
+                            <a  id="azeezia-link" href="javascript:;">
+                              العزيزية (درب المشاعر)
+                            </a>
+                            <a  id="zohor-link" href="javascript:;">
+                              الزهور
+                            </a>
+                          </div>
+
+                          <div class="tags-content">
+                            <div class="sharashef-content">
+                              <h3>
+                                جبل الشراشف
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="azeezia-content d-none">
+                              <h3>
+                                العزيزية (درب المشاعر)
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="zohor-content d-none">
+                              <h3>
+                                الزهور
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                     <!-- Tab 5 Content -->
+                     <div class="tab-pane fade" id="Study" role="tabpanel" aria-labelledby="study-tab">
+                      <div class="row">
+                        <div class="col-lg-12">
+                         
+                          <div class="navigation-links">
+                            <a class="active" href="javascript:;" id="saad-link">
+                              أجياد السد
+                            </a>
+                            <a  id="masafy-link" href="javascript:;">
+                              أجياد المصافي
+                            </a>
+                            <a  id="hendawiaWes-link" href="javascript:;">
+                              الهنداوية الغربية
+                            </a>
+                            
+                            <a  id="zahraa-link" href="javascript:;">
+                              الزهراء الجنوبية
+                            </a>
+                            <a  id="khaldia-link" href="javascript:;">
+                              الخالدية
+                            </a>
+                          
+                            
+                            
+
+                          </div>
+
+                          <div class="tags-content">
+                            <div class="saad-content">
+                              <h3>
+                                أجياد السد
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="masafy-content d-none">
+                              <h3>
+                                أجياد المصافي
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="hendawiaWes-content d-none">
+                              <h3>
+                                الهنداوية الغربية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                           
+                            <div class="zahraa-content d-none">
+                              <h3>
+                                الزهراء الجنوبية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="khaldia-content d-none">
+                              <h3>
+                                الخالدية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                     <!-- Tab 6 Content -->
+                     <div class="tab-pane fade" id="StudyTwo" role="tabpanel" aria-labelledby="studyTwo-tab">
+                      <div class="row">
+                        <div class="col-lg-12">
+                         
+                          <div class="navigation-links">
+                            
+                            <a  id="hendawiaEs-link" href="javascript:;">
+                              الهنداوية الشرقية
+                            </a>
+                            
+                            <a  id="hendawiSo-link" href="javascript:;">
+                              الهنداوية الجنوبية
+                            </a>
+                            <a  id="salamaSo-link" href="javascript:;">
+                              السلامة الجنوبية
+                            </a>
+                            <a  id="salamaM-link" href="javascript:;">
+                              السلامة الوسطى
+                            </a>
+                            <a  id="salamaNo-link" href="javascript:;">
+                              السلامة الشمالية
+                            </a>
+
+                            <a  id="hagla-link" href="javascript:;">
+                              الهجلة
+                            </a>
+                            <a  id="eslam-link" href="javascript:;">
+                              ساحة إسلام
+                            </a>
+                            <a  id="gemeza-link" href="javascript:;">
+                              الجمّيزة الشرقية
+                            </a>
+                           
+                            <a  id="nozha-link" href="javascript:;">
+                              النزهة
+                            </a>
+                            <a  id="sard-link" href="javascript:;">
+                              السرد
+                            </a>
+                            <a  id="galeelNo-link" href="javascript:;">
+                              وادي جليل الشمالية
+                            </a>
+                            <a  id="galeelSo-link" href="javascript:;">
+                              وادي جليل الجنوبية
+                            </a>
+                             <a  id="galeelM-link" href="javascript:;">
+                              وادي جليل الوسطى
+                            </a>
+                             <a  id="taneem-link" href="javascript:;">
+                              التنعيم الشمالية
+                            </a>
+                            <a  id="ekeshia-link" href="javascript:;">
+                              العكيشية الجنوبية
+                            </a>
+                            <a  id="safwa-link" href="javascript:;">
+                              الصفوة
+                            </a>
+                           
+
+                          </div>
+
+                          <div class="tags-content">
+                           
+                            <div class="hendawiaEs-content d-none">
+                              <h3>
+                                الهنداوية الشرقية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            
+                            <div class="hendawiaSo-content d-none">
+                              <h3>
+                                الهنداوية الجنوبية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="salamaSo-content d-none">
+                              <h3>
+                                السلامة الجنوبية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="salamaM-content d-none">
+                              <h3>
+                                السلامة الوسطى
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="salamaNo-content d-none">
+                              <h3>
+                                السلامة الشمالية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="hagla-content d-none">
+                              <h3>
+                                الهجلة
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="eslam-content d-none">
+                              <h3>
+                              ساحة إسلام
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="gemeza-content d-none">
+                              <h3>
+                                الجمّيزة الشرقية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                           
+                            <div class="nozha-content d-none">
+                              <h3>
+                                النزهة
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="sard-content d-none">
+                              <h3>
+                                السرد
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="galeelNo-content d-none">
+                              <h3>
+                                وادي جليل الشمالية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="galeelSo-content d-none">
+                              <h3>
+                                وادي جليل الجنوبية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="galeelM-content d-none">
+                              <h3>
+                                وادي جليل الوسطى
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="taneem-content d-none">
+                              <h3>
+                                التنعيم الشمالية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="ekeshia-content d-none">
+                              <h3>
+                                العكيشية الجنوبية
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="safwa-content d-none">
+                              <h3>
+                                الصفوة
+                              </h3>
+                              <div class="details">
+                                <a href="#" class="for-more">
+                                  <span>
+                                    اعرف المزيد
+                                  </span>
+                                  <img src="../assets/images/shared/Exrenal_LNK.svg" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            
+                        
+
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                     
+
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="show-on-Map">
+                    <a href="#">
+                      <span>
+                        اطلع على حالة ‏عقارك من خلال الخريطة التفاعلية
+                      </span>
+
+                      <div class="img-box">
+                      <img src="../assets/images/shared/arrow-left.svg" alt="">
+                    </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+        
+      </div>
+
+  </section>
+    <script src="../assets/js/jQueryV3.5.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/indexMap.js"></script>
+
+  </body>
+</html>

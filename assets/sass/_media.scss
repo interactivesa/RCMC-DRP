@@ -1,0 +1,1192 @@
+@media (min-width: 1650px) {
+  .container {
+    max-width: 1320px;
+  }
+  .inner .container{
+    max-width:1140px
+  }
+}
+@media (min-width: 1300px) and (max-width: 1440px) {
+  .container {
+    max-width: 1200px;
+    // border: 1px solid red;
+  }
+  .inner .container{
+    max-width: 1000px
+  }
+
+
+  body .owl-theme .owl-next {
+    #{$end-direction}: -25px;
+  }
+  body .owl-theme .owl-prev {
+    #{$start-direction}: -25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+ 
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  
+}
+@media (min-width: 767.68px) and (max-width: 1300px) {
+
+}
+
+
+
+
+
+
+@media (max-width: 1650.98px) {
+  .fields .fields-item .field-box .content-box {
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+  .fields .fields-item .field-box .content-box h3 {
+    font-size: 1.375rem;
+    line-height: 35px;
+  }
+  .fields .fields-item .field-box .content-box p {
+    font-size: 1.375rem;
+    line-height: 35px;
+  }
+  .innerBanner .breadcrumb-banner h2 img {
+    max-height: 150px;
+  }
+  .grad-number-cards .number-card .content-box .number{
+    font-size: 135px;
+    line-height: 130px;
+  }
+  .grad-number-cards .number-card .content-box h5{
+    font-size: 1.75rem;
+  }
+  .batch-card h3{
+    font-size: 1.75rem;
+  }
+  .batch-card .batch-content .content-sec .date , 
+  .batch-card .batch-content .content-sec p,
+  .batch-card .batch-content .content-sec h4,
+  .batch-card .batch-content .content-sec .types-of .type .desc,
+  .batch-card .batch-content .content-sec .types-of .type .desc p{
+    font-size: 1.5rem;
+    line-height: 35px;
+  }
+  .batch-card .batch-content .content-sec .types-of .type{
+    min-width: 350px;
+    min-height: 60px;
+  } 
+  .batch-card .batch-content .content-sec .types-of .type .icon{
+    max-width: 40px;
+    max-height: 30px;
+    margin-#{$end-direction}: 15px;
+  }
+  .batch-card .card-sec .content-box .number{
+    font-size: 110px;
+    line-height: 115px;
+  }
+  // .innerBanner .breadcrumb-banner .img-box{
+  //   height: 185px;
+  // }
+  .innerBanner .breadcrumb-banner h2{
+    font-size: 2rem;
+  }
+}
+
+
+@media (max-width: 1440.98px) {
+  .homeBanner .owl-carousel-banner .banner-item .img-box{
+    // margin-bottom: 100px;
+    margin-bottom: 7vh;
+  }
+  .innerBanner .breadcrumb-banner .img-box{
+    margin-bottom: 7vh;
+  }
+  // .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
+  //   font-size: 1.5rem;
+  //   line-height: 40px;
+  // }
+  .aboutCenter .aboutTxt .title{
+    font-size: 2rem;
+  }
+  .aboutCenter .aboutTxt .title::before{
+    top: 5px;
+    height: 29px;
+  }
+  .aboutCenter .aboutTxt p{
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+  .aboutCenter .aboutTxt .mainBtn {
+    font-size: 1.375rem;
+  }
+  .tatwer-elkharegeen .more-btn {
+    width: 190px;
+  }
+  .tatwer-elkharegeen .tatwer-main .content-box p{
+    font-size: 1.5rem;
+  }
+
+  .about-details .content-box p{
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+  .vision-mission .card .content-box{
+    height: 215px;
+  }
+  .vision-mission .card .content-box p{
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+  .batch-card .batch-content .content-sec .types-of .type{
+    min-width: inherit;
+  }
+  .batch-card .batch-content .content-sec .date , 
+  .batch-card .batch-content .content-sec p,
+  .batch-card .batch-content .content-sec h4,
+  .batch-card .batch-content .content-sec .types-of .type .desc,
+  .batch-card .batch-content .content-sec .types-of .type .desc p{
+    font-size: 1.25rem;
+    line-height: 30px;
+  }
+  .batch-card .batch-content .content-sec{
+    flex: 0 0 62%;
+    max-width: 62%;
+  }
+  .batch-card .card-sec{
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .homeBanner .img-box.logo-img{
+    #{$start-direction}:5vw
+  }
+}
+
+
+@media (max-width: 1199.98px) {
+  .aboutCenter .aboutTxt .mainBtn {
+    font-size: 1.125rem;
+  }
+  .fields .owl-theme .owl-prev {
+    #{$start-direction}: 20px;
+  }
+  .fields .owl-theme .owl-next {
+    #{$end-direction}: 20px;
+  }
+  .fields .fields-item .field-box .img-box{
+    margin-#{$start-direction}: 0;
+  }
+
+  .tatwer-elkharegeen .tatwer-main .content-box .img-box {
+    margin-bottom: 75px
+  }
+  .tatwer-elkharegeen .tatwer-main .content-box {
+    width: 500px;
+  }
+  body .owl-theme .owl-prev{
+    #{$start-direction}: 0px;
+  }
+  body .owl-theme .owl-next{
+    #{$end-direction}: 0px;
+  }
+  .tatwer-elkharegeen .more-btn {
+    width: 140px;
+    height: 50px;
+    font-size: 1.125rem;
+  }
+  .partners-about .partners-list{
+    justify-content: flex-start;
+  }
+  .partners-about .partners-list .partner-item{
+    width: 25%;
+  }
+  .partners-about .partners-list .partner-item .partBox .partImg{
+    height: 92px;
+  }
+
+  .accordion .accordion-item .accordion-header .accordion-button {
+    padding: 35px 65px;
+    padding-#{$end-direction}: 100px;
+    font-size: 1.5rem;
+  }
+  .accordion .accordion-item .accordion-collapse .accordion-body{
+    padding: 15px 65px;
+  }
+  .accordion .accordion-item .accordion-collapse .accordion-body p , 
+  .accordion .accordion-item .accordion-collapse .accordion-body ul li , 
+  .accordion .accordion-item .accordion-collapse .accordion-body h4{
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+  .partners .partBox .partImg{
+    height: 130px;
+  }
+  .about-details .content-box {
+    padding-#{$start-direction}: 45px;
+    padding-#{$end-direction}: 20px;
+  }
+  .about-details .img-box {
+    height: 100%;
+  }
+  .vision-mission .card .content-box p{
+    font-size: 1.125rem;
+    line-height: 30px;
+  }
+
+  .batch-card .batch-content{
+    flex-direction: column-reverse;
+  }
+  .batch-card .card-sec{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .batch-card .batch-content .content-sec{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .batch-card .card-sec{
+    width: 340px;
+    height: 350px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
+  .batch-card .card-sec .content-box .number {
+    font-size: 85px;
+    line-height: 95px;
+  }
+  .Graduate-Dev .cont-grey-card {
+    padding: 30px 35px;
+  }
+  .Graduate-Dev .cont-grey-card p {
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+  .Graduate-Dev {
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  .grad-number-cards .col-lg-4{
+    padding-#{$start-direction}: calc(var(--bs-gutter-x) * .5) ;
+    padding-#{$end-direction}: calc(var(--bs-gutter-x) * .5) ;
+  }
+  .grad-number-cards .number-card{
+    height: 350px;
+  }
+  .grad-number-cards .number-card .content-box .icon-box {
+    max-height: 60px;
+    margin-bottom: 30px;
+  }
+  .grad-number-cards .number-card .content-box .number {
+    font-size: 100px;
+    line-height: 95px;
+  }
+  .grad-number-cards .number-card .content-box h5 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+@media (max-width: 991.98px) {
+  .aboutCenter .patternImg::before{
+    #{$start-direction}: 50px;
+    top: -11px;
+    transform: rotate(-90deg);
+    background-repeat: no-repeat;
+  }
+  .fields .fields-item .field-box .content-box{
+    height: 285px;
+  }
+  .fields .fields-item .field-box .img-box::before{
+    #{$start-direction}: 50px;
+    top: -15px;
+    transform: rotate(-90deg);
+    background-repeat: no-repeat;
+  }
+  .tatwer-elkharegeen .tatwer-main{
+    flex-direction: column;
+  }
+  .tatwer-elkharegeen .tatwer-main .content-box {
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  footer .img-box {
+    max-width: 250px;
+  }
+  .partners-about .partners-list .partner-item {
+    width: 33%;
+  }
+  .privacy .cont-grey-card {
+    padding: 50px ;
+  }
+  .privacy .cont-grey-card p {
+    font-size: 1.25rem;
+    line-height: 35px;
+    margin-bottom: 25px;
+  }
+  .accordion .accordion-item .accordion-header .accordion-button::after{
+    width: 25px;
+    height: 25px;
+    #{$end-direction}:45px
+  }
+  .accordion .accordion-item .accordion-header .accordion-button{
+    padding-#{$end-direction}: 70px;
+  }
+  .about-details .img-box{
+    margin-#{$start-direction}: 0;
+  }
+  .values .values-list .value-item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .about-details .img-box::before{
+    width: 30px;
+    height: 40px;
+    #{$start-direction}: 40px;
+    top: -16px;
+    transform: rotate(-90deg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .batch-card .batch-content .content-sec .types-of .type .desc{
+    font-size: 1.125rem;
+  }
+  .batch-card h3{
+    font-size: 1.5rem;
+    line-height: 50px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+  .grad-number-cards .number-card{
+    margin-bottom: 5px;
+  }
+  .accordion .accordion-item .accordion-collapse .accordion-body ul{
+    padding-#{$start-direction}: 40px;
+  }
+  .vision-mission .card .content-box{
+    height: auto;
+  }
+  .homeBanner .img-box.logo-img{
+    height: 16vh;
+  }
+}
+
+@media (max-width: 767.98px) {
+  // .homeBanner .owl-carousel-banner .banner-item .img-box{
+  //   margin-bottom: 60px;
+  //   height: 150px;
+  // }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox p::before{
+    width: 30px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    #{$start-direction}:0;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox p::after{
+    width: 30px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox p{
+    font-size: 1.25rem;
+    line-height: 33px;
+    padding-top: 24px;
+    letter-spacing: 0;
+  }
+  .homeBanner .scroll-down{
+    #{$end-direction}:20px
+  }
+  .homeBanner .owl-carousel-banner .owl-dots{
+    bottom: 75px;
+  }
+  .main-topnav .bgTopNav .topNav{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-#{$start-direction}: 25px;
+    padding-#{$end-direction}: 25px;
+  }
+  .main-topnav .bgTopNav .topNav .changeLang{
+    font-size: 16px;
+    margin-#{$start-direction}: 15px;
+  }
+  .main-topnav .bgTopNav .topNav .joinBtn{
+    font-size: 14px;
+  }
+  .main-topnav.fixedTop .bgTopNav .topNav .a-logo{
+    margin-#{$start-direction}: 15px;
+    // max-width: 125px;
+    max-width: 145px;
+  }
+  .main-topnav .bannerBg{
+    width: 100%;
+    transform: translateX(100%);
+  }
+  .main-topnav .bannerBg .customMenu{
+    padding-top: 150px;
+    padding-#{$start-direction}: 35px;
+    padding-#{$end-direction}: 35px;
+  }
+  .main-topnav .bannerBg .customMenu .navigations{
+    padding-#{$start-direction}: 20px;
+  }
+  .main-topnav.fixedTop .bgTopNav .topNav .slide-nav:hover .menu-label{
+    display: none;
+  }
+
+  .aboutCenter{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .aboutCenter .aboutTxt{
+    padding: 30px;
+  }
+  .aboutCenter .aboutTxt .title {
+    font-size: 1.25rem;
+  }
+  .aboutCenter .aboutTxt .title::before {
+    top: 2px;
+    height: 20px;
+  }
+  .aboutCenter .aboutTxt p{
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0;
+  }
+  .aboutCenter .aboutTxt .mainBtn {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+  .aboutCenter .aboutTxt .mainBtn img{
+    max-height: 13px;
+  }
+  .tatwer-elkharegeen{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .tatwer-elkharegeen .tatwer-main{
+    padding-top: 65px;
+    padding-#{$start-direction}: 30px;
+    padding-#{$end-direction}: 30px;
+    padding-bottom: 60px;
+  }
+  .tatwer-elkharegeen .tatwer-main .content-box .img-box{
+    margin-bottom: 55px;
+    max-width: 200px;
+  }
+  .tatwer-elkharegeen .tatwer-main .content-box p{
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+  }
+  .tatwer-elkharegeen .more-btn {
+    width: 110px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .home-header {
+    font-size: 1.25rem;
+  }
+  .partners{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .partners .partBox .partImg{
+    height: 90px;
+  }
+  .partners .partBox:hover .hedinBt{
+    height: 40px;
+  }
+  .partners .partBox .hedinBt{
+    font-size: 0.875rem;
+    line-height: 20px;
+  }
+  .partners .owl-theme .owl-nav [class*="owl-"]{
+    position: relative;
+    top: 15px;
+  }
+  .partners .partBox{
+    height: 165px;
+  }
+  .fields{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .fields .owl-theme .owl-nav {
+    margin-top: 25px;
+  }
+  .fields .owl-theme .owl-nav [class*="owl-"]{
+    position: relative;
+    top: 15px;
+  }
+  .fields .owl-theme .owl-next {
+    #{$end-direction}: 0;
+  }
+  .fields .owl-theme .owl-prev {
+    #{$start-direction}: 0;
+  }
+  .fields .owl-theme .owl-dots{
+    margin-top: 10px;
+  }
+  .fields .fields-item .field-box .content-box p {
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0;
+  }
+  .fields .fields-item .field-box .content-box h3 {
+    font-size: 1.25rem;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+  .fields .fields-item .field-box .content-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-#{$start-direction}: 35px;
+    padding-#{$end-direction}: 35px;
+    // height: 240px;
+  }
+  .fields .fields-item .field-box .img-box .img-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .fields .fields-item .field-box .img-box .img-icon{
+    width: 90px;
+    height: 70px;
+  }
+  .fields .fields-item .field-box .img-box::before{
+    width: 20px;
+    height: 45px;
+    background-size: contain;
+  }
+  footer {
+    padding: 45px 25px 40px;
+    flex-direction: column;
+  }
+  footer .img-box {
+    margin-bottom: 25px;
+  }
+
+  // .innerBanner .breadcrumb-banner .img-box{
+  //   margin-bottom: 60px;
+  //   height: 150px;
+  // }
+  .innerBanner .breadcrumb-banner h2{
+    font-size: 2rem;
+  }
+  .about-details .content-box p {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .about-details .content-box {
+    padding-#{$start-direction}: 45px;
+    padding-#{$end-direction}: 45px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .about-details .img-box{
+    margin: 0;
+  }
+ 
+  .vision-mission .card .content-box{
+    height: auto;
+    padding: 25px 30px;
+  }
+  .vision-mission .card .img-box .layer h4{
+    font-size: 1.75rem;
+  }
+  .vision-mission .card .content-box p{
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0;
+  }
+  .values {
+    margin-top: 45px;
+    margin-bottom: 20px;
+  }
+  .partners-about .home-header {
+    margin-bottom: 30px;
+  }
+  .partners-about .partners-list .partner-item {
+    width: 50%;
+  }
+  .partners-about .partners-list .partner-item .partBox .partImg{
+    height: 105px;
+  }
+  .partners-about .partners-list .partner-item .partBox .hedinBt {
+    font-size: .75rem;
+    line-height: 17px;
+}
+  .partners-about .partners-list .partner-item .partBox:hover .hedinBt {
+    height: calc(18px * 2);
+  }
+  
+  .values .values-list .value-item {
+    width: 150px;
+    height: 210px;
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+  }
+  .values .values-list .value-item .img-box {
+    width: 150px;
+    height: 150px;
+  }
+  .values .values-list .value-item .content-box h4{
+    font-size: 1rem;
+  }
+  .values .home-header {
+    margin-bottom: 35px;
+  }
+  .vision-mission {
+    margin-bottom: 50px;
+  }
+  .about-details {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .privacy .cont-grey-card {
+    padding: 40px 25px;
+  }
+  .privacy .cont-grey-card p {
+    font-size: 1rem;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  .privacy {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .use-terms {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .accordion .accordion-item{
+    margin-bottom: 15px;
+  }
+  .accordion .accordion-item .accordion-header .accordion-button{
+    padding: 20px;
+    padding-#{$end-direction}:35px ;
+    font-size: 1rem;
+  }
+  .accordion .accordion-item .accordion-header .accordion-button::after{
+    #{$end-direction}:14px;
+    width: 20px;
+    height: 20px;
+  }
+  .accordion .accordion-item .accordion-collapse .accordion-body {
+    padding: 15px 30px;
+  }
+  .accordion .accordion-item .accordion-collapse .accordion-body p, 
+  .accordion .accordion-item .accordion-collapse .accordion-body ul li, 
+  .accordion .accordion-item .accordion-collapse .accordion-body h4 {
+    font-size: 0.875rem;
+    line-height: 25px;
+    letter-spacing: 0;
+  }
+  .accordion .accordion-item .accordion-collapse .accordion-body ul{
+    padding-#{$start-direction}: 25px;
+  }
+  .innerBanner .breadcrumb-banner h2 img {
+    max-height: 110px;
+  }
+  .Graduate-Dev .cont-grey-card {
+    padding: 20px 25px;
+  }
+  .Graduate-Dev .cont-grey-card p {
+    font-size: 1rem;
+    line-height: 27px;
+  }
+  .batch-card .cont-grey-card{
+    padding: 25px 20px;
+  }
+  .batch-card .card-sec .content-box .icon-box{
+    max-height: inherit;
+    height: 50px;
+  }
+  .batch-card .card-sec .content-box .number {
+    font-size: 65px;
+    line-height: 70px;
+  }
+  .batch-card .card-sec .content-box h5{
+    font-size: 1.5rem;
+  }
+  .batch-card .batch-content .content-sec .date,
+  .batch-card .batch-content .content-sec p,
+  .batch-card .batch-content .content-sec h4,
+  .batch-card .batch-content .content-sec .types-of .type .desc,
+  .batch-card .batch-content .content-sec .types-of .type .desc p{
+    font-size: .875rem;
+    line-height: 23px;
+  }
+  .batch-card .batch-content .content-sec h4{
+    margin-top: 10px;
+  }
+  .batch-card .batch-content .content-sec .types-of{
+    flex-direction: column;
+  }
+  .batch-card .batch-content .content-sec .types-of .type{
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox{
+    margin-top: 28vh;
+  }
+}
+
+
+@media (max-width: 574.98px) {
+  .values .values-list .value-item{
+    width: 130px;
+    height: 185px;
+  }
+  .values .values-list .value-item .img-box {
+    width: 130px;
+    height: 130px;
+  }
+  .vision-mission .card .img-box .overlay{
+    width: 110px;
+  }
+  .vision-mission .card .img-box .layer{
+    width: 110px;
+  }
+  .vision-mission .card .img-box .layer .icon-box img{
+    max-width: 55px;
+  }
+  .vision-mission .card .img-box .layer h4 {
+    font-size: 1.25rem;
+  }
+  .vision-mission .card .img-box{
+    height: 225px;
+  }
+  .partners-about .partners-list .partner-item .partBox .partImg {
+    height: 130px;
+  }
+  .partners-about .partners-list .partner-item {
+    width: 100%;
+  }
+
+
+  .innerBanner .breadcrumb-banner h2 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+  .innerBanner .breadcrumb-banner {
+    // height: 70vh;
+    height: 590px;
+    padding-top: 125px;
+  }
+  .innerBanner{
+    // height: 70vh;
+    height: 590px;
+  }
+  .innerBanner .breadcrumb-banner .breadcrumb li a{
+    font-size: 14px;
+  }
+  .homeBanner .scroll-down a span{
+    display: none;
+  }
+  .main-topnav .bgTopNav .topNav .joinBtn {
+    font-size: 12px;
+    padding: 5px 10px 3px;
+  }
+}
+
+
+
+
+
+html[lang="en"]{
+
+
+  @media (min-width:992px){
+    .aboutCenter .patternImg::before{
+      transform: scaleX(-1);
+    }
+    .fields .fields-item .field-box .img-box::before{
+      transform: scaleX(-1);
+      #{$start-direction}: -2px;
+
+    }
+  }
+
+  @media (max-width:1650px){
+    .about-details .content-box {
+      padding-left: 65px;
+      padding-right: 20px;
+    }
+    .about-details .content-box p{
+      font-size: 1.25rem;
+      line-height: 35px;
+    }
+    .vision-mission .card .img-box .layer h4{
+      font-size: 1.75rem;
+    }
+    .vision-mission .card .content-box p{
+      font-size: 1.25rem;
+      line-height: 35px;
+    }
+
+    .batch-card .batch-content .content-sec .date,
+    .batch-card .batch-content .content-sec p,
+    .batch-card .batch-content .content-sec h4{
+      font-size: 1.125rem;
+      line-height: 25px;
+    }
+    .batch-card .batch-content .content-sec .types-of .type .desc,
+    .batch-card .batch-content .content-sec .types-of .type .desc p{
+      font-size: .875rem;
+    }
+  }
+  @media (max-width:1440.98px){
+    .homeBanner .owl-carousel-banner .banner-item .bannerBox p{
+      font-size: 1.5rem;
+      line-height: 40px;
+    }
+    .aboutCenter .aboutTxt .title{
+      font-size: 2rem;
+    }
+    .aboutCenter .aboutTxt .title::before{
+      height: 25px;
+    }
+    .aboutCenter .aboutTxt .mainBtn{
+      font-size: 1.125rem;
+    }
+    .fields .fields-item .field-box .content-box h3{
+      line-height: 30px;
+    }
+    .fields .fields-item .field-box .content-box p{
+      font-size: 1.125rem;
+      line-height: 28px;
+    }
+    .tatwer-elkharegeen .tatwer-main .content-box{
+      width: 550px;
+    }
+    .tatwer-elkharegeen .tatwer-main .content-box p{
+      font-size: 1.25rem;
+      line-height: 35px;
+    }
+
+    .partners-about .partners-list .partner-item .partBox{
+      height: 155px;
+    }
+    .partners-about .partners-list .partner-item .partBox .partImg{
+      height: 100px;
+    }
+    .partners-about .partners-list .partner-item .partBox .hedinBt{
+      line-height: 20px;
+      padding: 0 15px;
+      font-size: 0.75rem;
+    }
+    .partners-about .partners-list .partner-item .partBox:hover .hedinBt{
+      height: calc(22px * 2);
+    }
+    .accordion .accordion-item .accordion-header .accordion-button{
+      font-size: 1.625rem;
+    }
+    .accordion .accordion-item .accordion-collapse .accordion-body p ,
+    .accordion .accordion-item .accordion-collapse .accordion-body ul li,
+    .accordion .accordion-item .accordion-collapse .accordion-body h4{
+      font-size: 1.25rem;
+      line-height: 35px;
+    }
+  }
+
+  @media (max-width:1199.98px){
+    .fields .fields-item .field-box .content-box h3{
+      font-size: 1.125rem;
+      line-height: 25px;
+    }
+    .fields .fields-item .field-box .content-box p{
+      font-size: 1rem;
+      line-height: 24px;
+    }
+    .homeBanner .owl-carousel-banner .banner-item .bannerBox{
+      max-width: 650px;
+    }
+    .homeBanner .owl-carousel-banner .banner-item .bannerBox p{
+      font-size: 1.25rem;
+      line-height: 35px;
+    }
+    .aboutCenter .aboutTxt .title{
+      font-size: 1.625rem;
+    }
+    .aboutCenter .aboutTxt .title::before{
+      height: 22px;
+      top: 1px;
+    }
+    .aboutCenter .aboutTxt p{
+      font-size: 1rem;
+      line-height: 26px;
+    }
+    .aboutCenter .aboutTxt .mainBtn{
+      font-size: 1rem;
+    }
+    .aboutCenter .aboutTxt .mainBtn img{
+      max-height: 13px;
+    }
+    .tatwer-elkharegeen .tatwer-main .content-box{
+      width: 480px;
+    }
+    .tatwer-elkharegeen .tatwer-main .content-box p{
+      font-size: 1rem;
+      line-height: 28px;
+    }
+    .tatwer-elkharegeen .more-btn{
+      font-size: 1rem;
+      padding-top: 18px;
+    }
+    .innerBanner .breadcrumb-banner h2{
+      font-size: 1.75rem;
+    }
+    .about-details .content-box p {
+      font-size: 1.125rem;
+      line-height: 30px;
+    }
+    .about-details .img-box{
+      height: 100%;
+    }
+    .vision-mission .card .content-box p {
+      font-size: 1.125rem;
+      line-height: 30px;
+    }
+    .vision-mission .card .img-box .layer h4{
+      font-size: 1.5rem;
+    }
+    .vision-mission .card.mission .img-box .overlay,
+    .vision-mission .card.mission .img-box .layer ,
+    .vision-mission .card.vision .img-box .overlay,
+    .vision-mission .card.vision .img-box .layer{
+      width: 150px;
+    }
+    .privacy .cont-grey-card p{
+      font-size: 1.125rem;
+      line-height: 30px;
+    }
+    .accordion .accordion-item .accordion-collapse .accordion-body p ,
+    .accordion .accordion-item .accordion-collapse .accordion-body ul li,
+    .accordion .accordion-item .accordion-collapse .accordion-body h4{
+      font-size: 1.125rem;
+      line-height: 30px;
+    }
+
+    .Graduate-Dev .cont-grey-card p {
+      font-size: 1.125rem;
+      line-height: 30px;
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    .tatwer-elkharegeen .tatwer-main .content-box {
+      width: auto;
+    }
+    
+    .vision-mission .card .content-box{
+      height: auto;
+      padding: 45px 40px;
+    }
+    .about-details .img-box::before{
+      transform: rotate(-90deg);
+    }
+    .accordion .accordion-item .accordion-header .accordion-button{
+      font-size: 1.3125rem;
+    }
+    .batch-card .batch-content .content-sec .date,
+    .batch-card .batch-content .content-sec p,
+    .batch-card .batch-content .content-sec h4{
+      font-size: 1rem;
+      line-height: 27px;
+    }
+    .batch-card .batch-content .content-sec .types-of .type .desc,
+    .batch-card .batch-content .content-sec .types-of .type .desc p{
+      font-size: .75rem;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .home-header {
+      font-size: 1.125rem;
+    }
+    .main-topnav .bannerBg{
+      transform: translateX(-100%);
+    }
+    .partners .partBox .hedinBt{
+      font-size: 0.75rem;
+      line-height: 18px;
+      padding: 0 7px;
+    }
+    .partners .partBox:hover .hedinBt{
+      height: 60px;
+    }
+    .aboutCenter .aboutTxt .title{
+      font-size: 1.25rem;
+    }
+    .aboutCenter .aboutTxt .title::before {
+      height: 19px;
+      top: 0;
+    }
+    .aboutCenter .aboutTxt p{
+      font-size: .875rem;
+    }
+    .aboutCenter .aboutTxt .mainBtn {
+      font-size: .875rem;
+    }
+    .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
+      font-size: 1.125rem;
+      line-height: 30px;
+    }
+    .fields .fields-item .field-box .content-box p {
+      font-size: .875rem;
+      line-height: 22px;
+    }
+    .tatwer-elkharegeen .tatwer-main .content-box p{
+      font-size: .875rem;
+      line-height: 22px;
+    }
+    .tatwer-elkharegeen .more-btn{
+      font-size: .875rem;
+    }
+    footer .served .linkR a,
+    footer .served p{
+      font-size: .875rem;
+    }
+    .main-topnav .bannerBg .customMenu .navigations li a{
+      font-size: 1rem;
+    }
+    .innerBanner .breadcrumb-banner h2{
+      font-size: 1.5rem;
+    }
+    .about-details .content-box {
+      padding-left: 45px;
+      padding-right: 45px;
+      padding-top: 35px;
+      padding-bottom: 35px;
+    }
+    .about-details .content-box p {
+      font-size: 1rem;
+      line-height: 30px;
+    }
+    .vision-mission .card .img-box .layer,
+    .vision-mission .card .img-box .overlay {
+      width: 110px !important;
+    }
+    .vision-mission .card .img-box .layer h4{
+      font-size: 1.25rem;
+    }
+    .vision-mission .card .content-box{
+      padding: 30px 25px;
+    }
+    .vision-mission .card .content-box p{
+      font-size: 1rem;
+      line-height: 27px;
+    }
+    .partners-about .partners-list .partner-item .partBox .partImg{
+      height: 130px;
+    }
+    .privacy .cont-grey-card p{
+      font-size: .875rem;
+      line-height: 25px;
+    }
+    .accordion .accordion-item .accordion-collapse .accordion-body p,
+    .accordion .accordion-item .accordion-collapse .accordion-body ul li,
+    .accordion .accordion-item .accordion-collapse .accordion-body h4{
+      font-size: .875rem;
+      line-height: 25px;
+    }
+    .accordion .accordion-item .accordion-header .accordion-button{
+      font-size: 1rem;
+    }
+    .Graduate-Dev .cont-grey-card p {
+      font-size: .875rem;
+      line-height: 25px;
+    }
+    .batch-card .batch-content .content-sec .date,
+    .batch-card .batch-content .content-sec p,
+    .batch-card .batch-content .content-sec h4{
+      font-size: .875rem;
+      line-height: 23px;
+    }
+    .batch-card .batch-content .content-sec .types-of .type .icon {
+      max-width: 40px;
+      max-height: 30px;
+      margin-right: 15px;
+    }
+    .batch-card h3{
+      font-size: 1.25rem;
+    }
+  }
+}
+
+
+
+/*
+    min-height
+*/
+
+@media(min-height: 1000px) and (max-width: 950px){
+  .innerBanner .breadcrumb-banner{
+    max-height: 770px;
+    padding-top: 110px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item{
+    max-height: 770px;
+    padding-top: 110px;
+  }
+  .homeBanner {
+    max-height: 770px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox{
+    margin-top: 25vh;
+  }
+  .homeBanner .img-box.logo-img{
+    top: 12vh;
+  }
+}
+
+
+
+/*
+    max-height
+*/
+@media(max-height:750px){
+  .homeBanner .owl-carousel-banner .banner-item{
+    padding-top: 17vh;
+  }
+  .innerBanner .breadcrumb-banner{
+    padding-top: 17vh;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .img-box{
+    margin-bottom: 10vh;
+  }
+  .innerBanner .breadcrumb-banner .img-box{
+    margin-bottom: 10vh;
+  }
+}
+
+
+/*
+    min & max height
+
+*/
+@media(min-height:300px) and (max-height:550px){
+  .homeBanner .owl-carousel-banner .banner-item{
+    padding-top: 100px;
+  }
+  .innerBanner .breadcrumb-banner{
+    padding-top: 100px;
+  }
+}

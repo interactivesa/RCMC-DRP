@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="52" viewBox="0 0 72 52">
+  <g id="serv-icon2" transform="translate(-1 -3195.802)">
+    <rect id="base" width="72" height="52" transform="translate(1 3195.802)" fill="none"/>
+    <g id="building-4" transform="translate(9.067 3198.792)">
+      <g id="Group_55851" data-name="Group 55851" transform="translate(26)">
+        <path id="Path_122793" data-name="Path 122793" d="M1,22H31.288" transform="translate(0 20.091)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+        <path id="Path_122796" data-name="Path 122796" d="M2.1,42.091V9.225C2.1,5.089,4.158,3.01,8.254,3.01H21.075c4.1,0,6.133,2.079,6.133,6.215V42.091" transform="translate(1.164)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+        <path id="Path_122797" data-name="Path 122797" d="M5.8,8.25H15.987" transform="translate(5.079 5.544)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+        <path id="Path_122798" data-name="Path 122798" d="M5.8,12H15.987" transform="translate(5.079 9.511)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+        <path id="Path_122799" data-name="Path 122799" d="M8.25,25.967V18.25" transform="translate(7.67 16.124)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      </g>
+      <g id="logout-1" transform="translate(-2.067 13.711)">
+        <path id="Path_122803" data-name="Path 122803" d="M21.169,16.958,17.44,13.229,21.169,9.5" transform="translate(-17.44 -1.405)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+        <path id="Path_122804" data-name="Path 122804" d="M21.661,12.06H9.76" transform="translate(-9.658 -0.236)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+        <path id="Path_122805" data-name="Path 122805" d="M3.76,25.228c5.865,0,10.6,1.665,10.616-10.618S9.625,3.993,3.76,3.993" transform="translate(8.242 -2.874)" fill="none" stroke="#756b65" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

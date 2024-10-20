@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="70" viewBox="0 0 1920 70">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1920" height="70" fill="none"/>
+    </clipPath>
+    <image id="image" width="107" height="70" xlink:href="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABQAAD/4QNtaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MCA2MS4xMzQ3NzcsIDIwMTAvMDIvMTItMTc6MzI6MDAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NkE4OTYzNDZCNzU4RUIxMTkyRjBFNDcyNTE0MjREODMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDkxNUMzRTQ1OEJDMTFFQkI2NzRGNEY3MEM4RDYzMzUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDkxNUMzRTM1OEJDMTFFQkI2NzRGNEY3MEM4RDYzMzUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NkE4OTYzNDZCNzU4RUIxMTkyRjBFNDcyNTE0MjREODMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NkE4OTYzNDZCNzU4RUIxMTkyRjBFNDcyNTE0MjREODMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94Onht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"/>
+  </defs>
+  <g id="startegy-pattern" clip-path="url(#clip-path)">
+    <g transform="translate(0 -976)">
+      <use id="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(107 -976)">
+      <use id="NoPath-2" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(214 -976)">
+      <use id="NoPath-3" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(321 -976)">
+      <use id="NoPath-4" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(428 -976)">
+      <use id="NoPath-5" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(535 -976)">
+      <use id="NoPath-6" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(642 -976)">
+      <use id="NoPath-7" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(749 -976)">
+      <use id="NoPath-8" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(856 -976)">
+      <use id="NoPath-9" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(963 -976)">
+      <use id="NoPath-10" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(1070 -976)">
+      <use id="NoPath-11" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(1177 -976)">
+      <use id="NoPath-12" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(1284 -976)">
+      <use id="NoPath-13" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(1391 -976)">
+      <use id="NoPath-14" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(1498 -976)">
+      <use id="NoPath-15" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(1605 -976)">
+      <use id="NoPath-16" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(1712 -976)">
+      <use id="NoPath-17" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+    <g transform="translate(1819 -976)">
+      <use id="NoPath-18" data-name="NoPath" transform="translate(0 976)" xlink:href="#image"/>
+    </g>
+  </g>
+</svg>
