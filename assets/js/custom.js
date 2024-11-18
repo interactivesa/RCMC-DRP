@@ -44,28 +44,7 @@ $( document ).ready(function() {
         '<img src="../assets/images/shared/part-arrow-R.svg" />',
         '<img src="../assets/images/shared/part-arrow-L.svg" />',
       ]
-      $('.owl-carousel-centerIn').owlCarousel({
-        loop:false,
-        margin:24,
-        nav:true,
-        rtl: true,
-        navText: arrow,
-        responsive:{
-            0:{
-                items:1
-            },
-            700:{
-                items:2
-            },
-            1100:{
-                items:3
-            },
-            1300:{
-                items:4
-            }
-        }
-    })
-    // end owl center
+
 
     $('.owl-carousel-partners').owlCarousel({
         loop:false,
@@ -99,35 +78,13 @@ $( document ).ready(function() {
         nav:false,
         rtl: true,
         items:1,
+        dots:true,
+        dotsContainer: '#custom-owl-dots',
     })
 
-
-    $('.owl-carousel-fields').owlCarousel({
-      margin:60,
-      nav:true,
-      dots:true,
-      rtl: true,
-      navText: arrow,
-      startPosition:2,
-      stagePadding:170,
-      responsive:{
-          0:{
-              items:1,
-              stagePadding:0,
-          },
-          // 600:{
-          //     items:3
-          // },
-          1000:{
-              items:1,
-              stagePadding:0,
-          },
-          1400:{
-              items:1
-          }
-      }
-  })
-
+    $('.owl-dot').click(function () {
+        owl.trigger('to.owl.carousel', [$(this).index(), 300]);
+    });
 
 
 
@@ -150,6 +107,8 @@ $( document ).ready(function() {
 
 
 });
+
+var owl =  $('.owl-carousel-banner');
 
 // contrastMode
 $(".top-functions .colors").on("click", function (e) {
@@ -376,3 +335,35 @@ $(".top-functions .colors").on("click", function (e) {
    
 
   });
+
+
+
+
+
+
+
+
+
+//   var owl =  $('.owl-carousel-banner');
+
+// $(document).ready(function() {
+
+//     $('.owl-carousel-banner').owlCarousel({
+//         nav: false,
+//         loop: false,
+//         // rewind: true, // rewind to first slide
+//         autoplay: false,
+//         // autoplaySpeed: 5000,
+//         // autoplayTimeout: 5000,
+//         dotsSpeed: 400,
+//         items: 1,
+//         margin:0,
+//         rtl: true,
+//         dotsContainer: '#custom-owl-dots'
+//     });
+    
+//     $('.owl-dot').click(function () {
+//         owl.trigger('to.owl.carousel', [$(this).index(), 300]);
+//     });
+
+// });
