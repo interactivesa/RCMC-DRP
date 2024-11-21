@@ -2569,7 +2569,7 @@ footer .footer-white p {
   background-color: #F9F9F9;
   padding-top: 60px;
   margin-top: 85px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 }
 
 .about .strategyDimensions .tabs-sec .new-sec .main-sec {
@@ -2644,6 +2644,32 @@ footer .footer-white p {
   max-width: 860px;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+.about .strategyDimensions .tabs-sec .last-sec .sideBySide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.about .strategyDimensions .tabs-sec .last-sec .sideBySide h5 {
+  font-size: 18px;
+  font-family: 'Suisse-Bold';
+  color: #D0420D;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.about .strategyDimensions .tabs-sec .last-sec .sideBySide p {
+  font-size: 18px;
+  font-family: 'Suisse-Bold';
+  color: #5E6065;
 }
 
 .faq {
@@ -2741,6 +2767,11 @@ footer .footer-white p {
   color: #887852;
 }
 
+.faq .accordion {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
 .faq .accordion .accordion-item {
   border: 0;
   border-bottom: 1px solid #E3E5E9;
@@ -2814,7 +2845,6 @@ footer .footer-white p {
 }
 
 .faq .accordion .accordion-item .accordion-body a {
-  display: block;
   font-size: 16px;
   color: #887852;
   line-height: 2;
@@ -2832,6 +2862,10 @@ footer .footer-white p {
   font-size: 16px;
   color: #5E6065;
   line-height: 2;
+}
+
+.faq .accordion .accordion-item .accordion-body ul.noNum {
+  list-style: disc;
 }
 
 .faq .show-more {
@@ -3095,6 +3129,7 @@ footer .footer-white p {
 
 .status .status-list .status-card .data h5 {
   font-size: 16px;
+  font-family: 'Suisse-Bold';
   color: #313135;
   padding: 10px 0;
   margin-bottom: 5px;
@@ -3127,6 +3162,10 @@ footer .footer-white p {
 
 .status .status-list .status-card.NS .data h5 {
   color: #787B81;
+}
+
+.status .status-list .status-card.noLine::before {
+  display: none;
 }
 
 .status .status-list .status-card:last-child {
