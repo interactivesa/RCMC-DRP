@@ -5,6 +5,9 @@
   .inner .container{
     max-width:1140px
   }
+  .inner .cust-container{
+    max-width: 1300px
+  }
 }
 @media (min-width: 1300px) and (max-width: 1440px) {
   .container {
@@ -122,6 +125,12 @@
       font-size: 16px;
     }
   }
+
+  footer .footer-links {
+    background-position: left 115%;
+    background-size: contain;
+    padding: 48px 0 55px;
+  }
 }
 
 
@@ -129,6 +138,15 @@
 
   .homeBanner .owl-carousel-banner .banner-item .bannerBox {
     max-width: 700px;
+  }
+  footer .footer-links {
+    background-position: left 104%;
+  }
+  footer .footer-links .col-lg-12 {
+    max-width: 70%;
+  }
+  footer .footer-links ul li a{
+    font-size: 15px;
   }
 }
 
@@ -249,6 +267,84 @@
     }
   }
 
+  footer .footer-links .col-lg-12 {
+    max-width: 75%;
+    gap: 7%;
+  }
+  footer .footer-links ul li a{
+    font-size: 14px;
+  }
+
+  .faq {
+    h3 {
+      font-size: 25px;
+    }
+  }
+
+  .regions-details {
+    .main-sec {
+      .content-box {
+        padding: 0;
+        h3 {
+          font-size: 25px;
+          margin-bottom: 20px;
+        }
+        .infos{
+          div {
+            span{
+              font-size: 16px;
+            }
+            strong{
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .img-box{
+        .big-img{
+          width: 75%;
+        }
+        .small-mapImg{
+          width: 295px;
+          height: 335px;
+          #{$start-direction}: 0;
+        }
+      }
+    }
+    .limit {
+      .title {
+        h3{
+          font-size: 20px;
+          margin-bottom: 25px;
+        }
+      }
+      .directions {
+        margin-bottom: 15px;
+        padding: 0;
+        p{
+          font-size: 16px;
+        }
+      }
+      .big-btn a{
+        height: 60px;
+        gap: 15px;
+        padding-#{$start-direction}: 20px;
+        padding-#{$end-direction}: 20px;
+      }
+    }
+  }
+  .status{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    h3{
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+  }
+
+  .regions-details .main-sec .img-box.revSide{
+    height: 600px;
+  }
 }
 
 
@@ -312,8 +408,6 @@
 
   footer .footer-links{
     background-position: left 101%;
-    background-size: contain;
-    padding: 48px 0 55px;
   }
   footer .footer-links .col-lg-12{
     max-width: 85%;
@@ -485,6 +579,61 @@
     font-size: 16px;
   }
 
+
+
+  .motem-main .main-sec {
+    .content-box {
+      padding: 0;
+      h3{
+        font-size: 25px;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+    .img-box{
+      margin-top: 20px;
+    }
+  }
+  .servicesList-sec h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .servicesList-sec {
+    .col-lg-3{
+      width: 50%;
+    }
+    .service-listCard{
+      max-width: 300px;
+      .content-box h4{
+        font-size: 16px;
+      }
+    }
+  }
+  .big-btn a{
+    padding-#{$start-direction}: 30px;
+    padding-#{$end-direction}: 30px;
+    font-size: 16px;
+    gap: 25px;
+  }
+  .servicesList-sec .big-btn a {
+    height: 55px;
+  }
+  .pageTitle {
+    height: auto;
+    padding-bottom: 30px;
+    h2{
+      font-size: 30px;
+    }
+  }
+
+  .E-servicesList .eServiceCard{
+    margin-bottom: 20px;
+  }
+  .E-servicesList .eServiceCard .content-box .hidden-area .btn-cont a span {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -559,6 +708,28 @@
         }
       }
     }
+  }
+
+  .regions-details .main-sec .img-box,
+  .regions-details .main-sec .img-box.revSide{
+    width: 100%;
+    height: 555px;
+    .small-mapImg{
+      width: 235px;
+      height: 265px;
+    }
+  }
+  .faq .search-area {
+    width: 100%;
+    input{
+      width: 100%;
+    }
+  }
+  .map-area .map-bg > div img{
+    object-position: left;
+  }
+  .modalSearch .modal-dialog .modal-content .SearchCustom{
+    width: 100%;
   }
 }
 
@@ -784,7 +955,7 @@
     padding-right: 5%;
     padding-left: 5%;
     .Rsec{
-      padding-left: 20px;
+      padding-#{$end-direction}: 20px;
       .navigations li {
         a{
           font-size: 16px;
@@ -875,14 +1046,153 @@
 
   .def h3{
     font-size: 25px;
+    margin-bottom: 20px;
   }
   .def ul li p {
     font-size: 14px;
   }
-  
+
+
+
+  .motem-main .main-sec .content-box p {
+    font-size: 14px;
+  }
+  .servicesList-sec .col-lg-3{
+    width: 100%;
+  }
+  .servicesList-sec .service-listCard{
+    margin: 0 auto;
+    margin-bottom: 20px; 
+  }
+  .big-btn a {
+    padding-#{$start-direction}: 20px;
+    padding-#{$end-direction}: 20px;
+    font-size: 14px;
+    gap: 15px;
+    .img-box{
+      width: 25px;
+      height: 25px;
+      img{
+        width: 13px;
+      }
+    }
+  }
+
+  .faq .accordion .accordion-item .accordion-header .accordion-button{
+    font-size: 16px;
+  }
+  .faq .accordion .accordion-item .accordion-body {
+    padding-#{$end-direction}:0 ;
+    font-size: 14px;
+    p ,
+    ul li ,
+    a ,
+    h5 {
+      font-size: 14px;
+    }
+  }
+  .faq .show-more a{
+    span{
+      font-size: 14px;
+    }
+    img {
+      max-width: 18px;
+    }
+  }
+
+  .regions-details .main-sec .content-box h3 {
+    font-size: 22px;
+  }
+  .regions-details .main-sec .content-box .infos{
+    gap: 10px;
+  }
+  .regions-details .main-sec .content-box .infos div span {
+    font-size: 14px;
+    width: 110px;
+  }
+  .regions-details .main-sec .content-box .infos div strong {
+    font-size: 14px;
+  }
+  .regions-details .main-sec .img-box,
+  .regions-details .main-sec .img-box.revSide {
+    width: 100%;
+    height: 475px;
+  }
+  .regions-details .main-sec .img-box .big-img {
+    width: 350px;
+  }
+  .regions-details .main-sec .img-box .small-mapImg {
+    width: 160px;
+    height: 170px;
+  }
+  .regions-details .limit .title h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .regions-details .limit .directions {
+    margin-bottom: 10px;
+  }
+  .regions-details .limit .directions strong {
+    font-size: 14px;
+    min-width: 45px;
+  }
+  .regions-details .limit .directions p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .status h3 {
+    font-size: 18px;
+  }
+  .status .status-list .status-card .data h5 {
+    font-size: 14px;
+  }
+  .status .status-list .status-card .data ul li {
+    font-size: 12px;
+  }
+  .status .status-list .status-card .status-circle{
+    width: 25px;
+    height: 25px;
+    flex: 0 0 25px;
+  }
+  .regions-details .limit .big-btn a{
+    height: 45px;
+  }
+  .status .status-colors div p {
+    font-size: 12px;
+  }
+
+  .SearchCustom{
+    height: 55px;
+    padding-#{$start-direction}: 20px;
+  }
+  .SearchCustom .searchSubmit{
+    width: 55px;
+    img{
+      max-width: 20px;
+    }
+  }
+  .SearchCustom .boxSloce{
+    margin-top: 20px;
+    img{
+      max-width: 25px;
+    }
+  }
+  .SearchCustom .searchInput{
+    font-size: 14px;
+  }
 }
 
 
+@media (max-width: 399.98px) {
+  .regions-details .main-sec .img-box {
+    width: 100%;
+    height: 350px;
+  }
+  .regions-details .main-sec .img-box .big-img {
+    width: 250px;
+  }
+
+}
 
 
 

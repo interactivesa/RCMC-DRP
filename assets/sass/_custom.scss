@@ -2334,6 +2334,7 @@ html[lang="en"]{
             outline: none;
             padding-#{$start-direction}: 0;
             padding-#{$end-direction}: 40px;
+            text-align: #{$start-direction};
             &::before{
               content: url(../images/shared/arroq-down.svg);
               position: absolute;
@@ -2676,6 +2677,7 @@ html[lang="en"]{
     div{
       display: flex;
       flex-direction: row;
+      align-items: center;
       span{
         width: 15px;
         height: 15px;
@@ -2704,6 +2706,100 @@ html[lang="en"]{
       &.nsy{
         span{
           background-color: #9EA1A8;
+        }
+      }
+    }
+  }
+}
+
+
+.E-servicesList{
+  padding-top: 50px;
+  padding-bottom: 200px;
+  h3{
+    font-size: 30px;
+    font-family: 'Suisse-Bold';
+    color: $main-color;
+    margin-bottom: 50px;
+  }
+  .eServiceCard{
+    background-color: $white;
+    border: 1px solid #E9E9E9;
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 180px;
+    transition: .5s;
+    overflow: hidden;
+    .img-box{
+      width: 48px;
+      height: 48px;
+      margin-bottom: 15px;
+    }
+    .content-box{
+      h4{
+        font-size: 18px;
+        font-family: 'Suisse-Bold';
+        color: $main-color;
+        text-align: center;
+        margin-bottom: 19px;
+        transition: .3s;
+      }
+      .hidden-area{
+        opacity: 0;
+        visibility: hidden;
+        // display: none;
+        transition: .3s;
+        p{
+          font-size: 14px;
+          color: $footer-bg;
+          margin-bottom: 20px;
+          line-height: 23px;
+        }
+        .btn-cont{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          a{
+            background-color: $main-color;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 17px 9px;
+            span{
+              font-size: 15px;
+              color: $white;
+              margin-#{$end-direction}: 10px;
+            }
+            img{
+              filter: grayscale(2) brightness(5);
+              transition: .3s;
+            }
+
+            &:hover{
+              img{
+                transform: translateX(-3px);
+              }
+            }
+          }
+
+        }
+      }
+    }
+
+    &:hover{
+      height: auto;
+      h4{
+        text-decoration: underline ;
+      }
+      .content-box{
+        .hidden-area{
+          opacity: 1;
+          // display: block;
+          visibility: visible;
         }
       }
     }

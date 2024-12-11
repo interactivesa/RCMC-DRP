@@ -2792,6 +2792,7 @@ footer .footer-white p {
   outline: none;
   padding-left: 0;
   padding-right: 40px;
+  text-align: left;
 }
 
 .faq .accordion .accordion-item .accordion-header .accordion-button::before {
@@ -3210,6 +3211,9 @@ footer .footer-white p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .status .status-colors div span {
@@ -3240,12 +3244,138 @@ footer .footer-white p {
   background-color: #9EA1A8;
 }
 
+.E-servicesList {
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.E-servicesList h3 {
+  font-size: 30px;
+  font-family: 'Suisse-Bold';
+  color: #887852;
+  margin-bottom: 50px;
+}
+
+.E-servicesList .eServiceCard {
+  background-color: #ffffff;
+  border: 1px solid #E9E9E9;
+  padding: 22px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 180px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  overflow: hidden;
+}
+
+.E-servicesList .eServiceCard .img-box {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 15px;
+}
+
+.E-servicesList .eServiceCard .content-box h4 {
+  font-size: 18px;
+  font-family: 'Suisse-Bold';
+  color: #887852;
+  text-align: center;
+  margin-bottom: 19px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.E-servicesList .eServiceCard .content-box .hidden-area {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.E-servicesList .eServiceCard .content-box .hidden-area p {
+  font-size: 14px;
+  color: #756B65;
+  margin-bottom: 20px;
+  line-height: 23px;
+}
+
+.E-servicesList .eServiceCard .content-box .hidden-area .btn-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.E-servicesList .eServiceCard .content-box .hidden-area .btn-cont a {
+  background-color: #887852;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 17px 9px;
+}
+
+.E-servicesList .eServiceCard .content-box .hidden-area .btn-cont a span {
+  font-size: 15px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.E-servicesList .eServiceCard .content-box .hidden-area .btn-cont a img {
+  -webkit-filter: grayscale(2) brightness(5);
+          filter: grayscale(2) brightness(5);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.E-servicesList .eServiceCard .content-box .hidden-area .btn-cont a:hover img {
+  -webkit-transform: translateX(-3px);
+          transform: translateX(-3px);
+}
+
+.E-servicesList .eServiceCard:hover {
+  height: auto;
+}
+
+.E-servicesList .eServiceCard:hover h4 {
+  text-decoration: underline;
+}
+
+.E-servicesList .eServiceCard:hover .content-box .hidden-area {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media (min-width: 1650px) {
   .container {
     max-width: 1320px;
   }
   .inner .container {
     max-width: 1140px;
+  }
+  .inner .cust-container {
+    max-width: 1300px;
   }
 }
 
@@ -3341,11 +3471,25 @@ footer .footer-white p {
   .homeBanner .owl-carousel-banner .banner-item .bannerBox .btns-area .qual-form span {
     font-size: 16px;
   }
+  footer .footer-links {
+    background-position: left 115%;
+    background-size: contain;
+    padding: 48px 0 55px;
+  }
 }
 
 @media (max-width: 1440.98px) {
   .homeBanner .owl-carousel-banner .banner-item .bannerBox {
     max-width: 700px;
+  }
+  footer .footer-links {
+    background-position: left 104%;
+  }
+  footer .footer-links .col-lg-12 {
+    max-width: 70%;
+  }
+  footer .footer-links ul li a {
+    font-size: 15px;
   }
 }
 
@@ -3462,6 +3606,65 @@ footer .footer-white p {
   .homeBanner .owl-carousel-banner .banner-item .bannerBox .btns-area .more span {
     font-size: 14px;
   }
+  footer .footer-links .col-lg-12 {
+    max-width: 75%;
+    gap: 7%;
+  }
+  footer .footer-links ul li a {
+    font-size: 14px;
+  }
+  .faq h3 {
+    font-size: 25px;
+  }
+  .regions-details .main-sec .content-box {
+    padding: 0;
+  }
+  .regions-details .main-sec .content-box h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .regions-details .main-sec .content-box .infos div span {
+    font-size: 16px;
+  }
+  .regions-details .main-sec .content-box .infos div strong {
+    font-size: 16px;
+  }
+  .regions-details .main-sec .img-box .big-img {
+    width: 75%;
+  }
+  .regions-details .main-sec .img-box .small-mapImg {
+    width: 295px;
+    height: 335px;
+    left: 0;
+  }
+  .regions-details .limit .title h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .regions-details .limit .directions {
+    margin-bottom: 15px;
+    padding: 0;
+  }
+  .regions-details .limit .directions p {
+    font-size: 16px;
+  }
+  .regions-details .limit .big-btn a {
+    height: 60px;
+    gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .status {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .status h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .regions-details .main-sec .img-box.revSide {
+    height: 600px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -3526,8 +3729,6 @@ footer .footer-white p {
   }
   footer .footer-links {
     background-position: left 101%;
-    background-size: contain;
-    padding: 48px 0 55px;
   }
   footer .footer-links .col-lg-12 {
     max-width: 85%;
@@ -3657,6 +3858,54 @@ footer .footer-white p {
   .def ul li p {
     font-size: 16px;
   }
+  .motem-main .main-sec .content-box {
+    padding: 0;
+  }
+  .motem-main .main-sec .content-box h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .motem-main .main-sec .content-box p {
+    font-size: 16px;
+  }
+  .motem-main .main-sec .img-box {
+    margin-top: 20px;
+  }
+  .servicesList-sec h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .servicesList-sec .col-lg-3 {
+    width: 50%;
+  }
+  .servicesList-sec .service-listCard {
+    max-width: 300px;
+  }
+  .servicesList-sec .service-listCard .content-box h4 {
+    font-size: 16px;
+  }
+  .big-btn a {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    gap: 25px;
+  }
+  .servicesList-sec .big-btn a {
+    height: 55px;
+  }
+  .pageTitle {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .pageTitle h2 {
+    font-size: 30px;
+  }
+  .E-servicesList .eServiceCard {
+    margin-bottom: 20px;
+  }
+  .E-servicesList .eServiceCard .content-box .hidden-area .btn-cont a span {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -3718,6 +3967,29 @@ footer .footer-white p {
   }
   .contact-us .contact-data ul.info li .target {
     font-size: 16px;
+  }
+  .regions-details .main-sec .img-box,
+  .regions-details .main-sec .img-box.revSide {
+    width: 100%;
+    height: 555px;
+  }
+  .regions-details .main-sec .img-box .small-mapImg,
+  .regions-details .main-sec .img-box.revSide .small-mapImg {
+    width: 235px;
+    height: 265px;
+  }
+  .faq .search-area {
+    width: 100%;
+  }
+  .faq .search-area input {
+    width: 100%;
+  }
+  .map-area .map-bg > div img {
+    -o-object-position: left;
+       object-position: left;
+  }
+  .modalSearch .modal-dialog .modal-content .SearchCustom {
+    width: 100%;
   }
 }
 
@@ -3954,7 +4226,7 @@ footer .footer-white p {
     padding-left: 5%;
   }
   .main-topnav .bannerBg .customMenu .Rsec {
-    padding-left: 20px;
+    padding-right: 20px;
   }
   .main-topnav .bannerBg .customMenu .Rsec .navigations li a {
     font-size: 16px;
@@ -4037,9 +4309,143 @@ footer .footer-white p {
   }
   .def h3 {
     font-size: 25px;
+    margin-bottom: 20px;
   }
   .def ul li p {
     font-size: 14px;
+  }
+  .motem-main .main-sec .content-box p {
+    font-size: 14px;
+  }
+  .servicesList-sec .col-lg-3 {
+    width: 100%;
+  }
+  .servicesList-sec .service-listCard {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .big-btn a {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    gap: 15px;
+  }
+  .big-btn a .img-box {
+    width: 25px;
+    height: 25px;
+  }
+  .big-btn a .img-box img {
+    width: 13px;
+  }
+  .faq .accordion .accordion-item .accordion-header .accordion-button {
+    font-size: 16px;
+  }
+  .faq .accordion .accordion-item .accordion-body {
+    padding-right: 0;
+    font-size: 14px;
+  }
+  .faq .accordion .accordion-item .accordion-body p,
+  .faq .accordion .accordion-item .accordion-body ul li,
+  .faq .accordion .accordion-item .accordion-body a,
+  .faq .accordion .accordion-item .accordion-body h5 {
+    font-size: 14px;
+  }
+  .faq .show-more a span {
+    font-size: 14px;
+  }
+  .faq .show-more a img {
+    max-width: 18px;
+  }
+  .regions-details .main-sec .content-box h3 {
+    font-size: 22px;
+  }
+  .regions-details .main-sec .content-box .infos {
+    gap: 10px;
+  }
+  .regions-details .main-sec .content-box .infos div span {
+    font-size: 14px;
+    width: 110px;
+  }
+  .regions-details .main-sec .content-box .infos div strong {
+    font-size: 14px;
+  }
+  .regions-details .main-sec .img-box,
+  .regions-details .main-sec .img-box.revSide {
+    width: 100%;
+    height: 475px;
+  }
+  .regions-details .main-sec .img-box .big-img {
+    width: 350px;
+  }
+  .regions-details .main-sec .img-box .small-mapImg {
+    width: 160px;
+    height: 170px;
+  }
+  .regions-details .limit .title h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .regions-details .limit .directions {
+    margin-bottom: 10px;
+  }
+  .regions-details .limit .directions strong {
+    font-size: 14px;
+    min-width: 45px;
+  }
+  .regions-details .limit .directions p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .status h3 {
+    font-size: 18px;
+  }
+  .status .status-list .status-card .data h5 {
+    font-size: 14px;
+  }
+  .status .status-list .status-card .data ul li {
+    font-size: 12px;
+  }
+  .status .status-list .status-card .status-circle {
+    width: 25px;
+    height: 25px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25px;
+            flex: 0 0 25px;
+  }
+  .regions-details .limit .big-btn a {
+    height: 45px;
+  }
+  .status .status-colors div p {
+    font-size: 12px;
+  }
+  .SearchCustom {
+    height: 55px;
+    padding-left: 20px;
+  }
+  .SearchCustom .searchSubmit {
+    width: 55px;
+  }
+  .SearchCustom .searchSubmit img {
+    max-width: 20px;
+  }
+  .SearchCustom .boxSloce {
+    margin-top: 20px;
+  }
+  .SearchCustom .boxSloce img {
+    max-width: 25px;
+  }
+  .SearchCustom .searchInput {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .regions-details .main-sec .img-box {
+    width: 100%;
+    height: 350px;
+  }
+  .regions-details .main-sec .img-box .big-img {
+    width: 250px;
   }
 }
 
