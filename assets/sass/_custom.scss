@@ -137,6 +137,10 @@ body {
           #{$start-direction}:0;
           background: rgb(83,72,65);
           background: linear-gradient(0deg, rgba(83,72,65,0.4990371148459384) 0%, rgba(83,72,65,0.4990371148459384) 30%, rgba(83,72,65,0) 100%);
+          // background: #534841;
+          // background: linear-gradient(0deg, rgba(83,72,65,0.8995973389355743) 0%, rgba(83,72,65,0.7987570028011204) 30%, rgba(83,72,65,0.39539565826330536) 100%);
+          background: rgb(64,56,50);
+background: linear-gradient(0deg, rgba(64,56,50,0.5998774509803921) 0%, rgba(64,56,50,0.5998774509803921) 30%, rgba(64,56,50,0.15) 100%);
         }
       
         img,
@@ -420,7 +424,9 @@ body {
   justify-content: space-between;
 }
 
-
+.tooltip{
+  font-family: inherit !important;
+}
 
 
 
@@ -693,7 +699,9 @@ footer {
         color: #BCAF92;
         // margin-#{$start-direction}: 25px;
       }
-
+      .btnSr{
+        display: none;
+      }
 
 
       &.onScroll{

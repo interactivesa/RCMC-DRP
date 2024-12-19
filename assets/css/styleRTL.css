@@ -259,6 +259,9 @@ body .owl-theme .owl-prev {
   background: #534841;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(83, 72, 65, 0.499037)), color-stop(30%, rgba(83, 72, 65, 0.499037)), to(rgba(83, 72, 65, 0)));
   background: linear-gradient(0deg, rgba(83, 72, 65, 0.499037) 0%, rgba(83, 72, 65, 0.499037) 30%, rgba(83, 72, 65, 0) 100%);
+  background: #403832;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(64, 56, 50, 0.599877)), color-stop(30%, rgba(64, 56, 50, 0.599877)), to(rgba(64, 56, 50, 0.15)));
+  background: linear-gradient(0deg, rgba(64, 56, 50, 0.599877) 0%, rgba(64, 56, 50, 0.599877) 30%, rgba(64, 56, 50, 0.15) 100%);
 }
 
 .homeBanner .owl-carousel-banner .banner-item .bg-box img,
@@ -589,6 +592,10 @@ body .owl-theme .owl-prev {
           justify-content: space-between;
 }
 
+.tooltip {
+  font-family: inherit !important;
+}
+
 .partners {
   background-color: #fff;
   padding: 90px 0 210px;
@@ -877,6 +884,10 @@ footer .footer-white p {
   display: inline-block;
   font-size: 20px;
   color: #BCAF92;
+}
+
+.main-topnav .bgTopNav .topNav .btnSr {
+  display: none;
 }
 
 .main-topnav .bgTopNav .topNav.onScroll .left a img {

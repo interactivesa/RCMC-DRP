@@ -363,19 +363,19 @@
          
         </div>
         <div id='custom-owl-dots' class='owl-dots'> 
-          <a href="#" class="owl-dot">
+          <a href="#" class="owl-dot" data-bs-toggle="tooltip" data-bs-placement="top" title="عن البرنامج">
             عن البرنامج
             <span></span>
           </a>
-          <a href="#" class="owl-dot">
+          <a href="#" class="owl-dot" data-bs-toggle="tooltip" data-bs-placement="top" title="مالك">
             مالك
             <span></span>
           </a>
-          <a href="#" class="owl-dot">
+          <a href="#" class="owl-dot" data-bs-toggle="tooltip" data-bs-placement="top" title="مطور">
             مطور
             <span></span>
           </a>
-          <a href="#" class="owl-dot">
+          <a href="#" class="owl-dot" data-bs-toggle="tooltip" data-bs-placement="top" title="استعرض حالة معاملتك عبر منصة (مُتمّ">
             منصة مُتمّ
             <span></span>
           </a>
@@ -1965,6 +1965,11 @@
     <script src="../assets/js/custom.js"></script>
     <script src="../assets/js/indexMap.js"></script>
 
-    
+    <!-- <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+    </script> -->
   </body>
 </html>
