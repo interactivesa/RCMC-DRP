@@ -731,6 +731,16 @@
   .modalSearch .modal-dialog .modal-content .SearchCustom{
     width: 100%;
   }
+
+  .breadcrumb{
+    height: auto;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    .items{
+      margin-top: 0;
+      flex-wrap: wrap;
+    }
+  }
 }
 
 

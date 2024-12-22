@@ -4000,6 +4000,16 @@ footer .footer-white p {
   .modalSearch .modal-dialog .modal-content .SearchCustom {
     width: 100%;
   }
+  .breadcrumb {
+    height: auto;
+    padding-top: 18px;
+    padding-bottom: 15px;
+  }
+  .breadcrumb .items {
+    margin-top: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 574.98px) {
