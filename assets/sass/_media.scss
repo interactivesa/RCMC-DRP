@@ -772,6 +772,7 @@
   }
   .homeBanner .owl-carousel-banner .banner-item .bannerBox {
     margin-top: 2vh;
+    padding-#{$start-direction}: 20px;
   }
   
   .homeBanner .owl-carousel-banner .banner-item .bannerBox h1 {
@@ -839,7 +840,8 @@
   }
   .interactive-map .map-cont .nav-pills .nav-link{
     font-size: 14px;
-    line-height: 14px;
+    line-height: 20px;
+    padding: 9px 10px 6px;
   }
   .interactive-map .map-cont .tags-content h3 {
     font-size: 24px;
@@ -1043,6 +1045,7 @@
     padding-bottom: 20px;
     h2{
       font-size: 25px;
+      padding-top: 110px;
     }
   } 
 
@@ -1189,6 +1192,13 @@
   }
   .SearchCustom .searchInput{
     font-size: 14px;
+  }
+  footer .footer-white {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    p{
+      line-height: 20px;
+    }
   }
 }
 
