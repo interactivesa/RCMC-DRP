@@ -65,7 +65,7 @@
     }
   }
   .main-topnav .bannerBg .customMenu{
-    padding-top: 130px;
+    // padding-top: 130px;
     .Rsec{
       .navigations li a{
         font-size: 30px;
@@ -344,6 +344,22 @@
 
   .regions-details .main-sec .img-box.revSide{
     height: 600px;
+  }
+
+  .homeBanner{
+    height: auto;
+  }
+  .homeBanner .owl-carousel-banner .banner-item{
+    height: 50vh;
+    padding-top: 4vh;
+  }
+
+  
+  .main-topnav .bannerBg{
+    height: 70vh;
+  }
+  .main-topnav .bannerBg .customMenu .Rsec .navigations{
+    height: 23vh;
   }
 }
 
@@ -634,6 +650,10 @@
   .E-servicesList .eServiceCard .content-box .hidden-area .btn-cont a span {
     font-size: 13px;
   }
+
+  .main-topnav .bannerBg .customMenu .Rsec .contactBtn{
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -647,9 +667,9 @@
       gap: 15px;
     }
     .slide-nav {
-      width: 50px;
+      width: 95px;
       .menu-label{
-        display: none;
+       font-size: 10px;
       }
     }
     .mottemHdBtn{
@@ -741,6 +761,11 @@
       flex-wrap: wrap;
     }
   }
+
+  .homeBanner .owl-carousel-banner .banner-item {
+    height: 60vh;
+    padding-top: 14vh;
+}
 }
 
 
@@ -757,7 +782,7 @@
   }
   .main-topnav .bgTopNav .topNav .slide-nav{
     height: 30px;
-    width: 45px;
+    // width: 45px;
     padding: 10px 0 6px;  
   }
   .main-topnav .bgTopNav .topNav .mottemHdBtn{
@@ -963,7 +988,7 @@
   }
 
   .main-topnav .bannerBg .customMenu{
-    padding-top: 100px;
+    padding-top: 140px;
     padding-right: 5%;
     padding-left: 5%;
     .Rsec{
@@ -1200,6 +1225,7 @@
       line-height: 20px;
     }
   }
+
 }
 
 
@@ -1212,6 +1238,10 @@
     width: 250px;
   }
 
+  .homeBanner .owl-carousel-banner .banner-item {
+    height: 82vh;
+    padding-top: 19vh;
+  }
 }
 
 

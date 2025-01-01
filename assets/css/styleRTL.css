@@ -770,15 +770,20 @@ footer .footer-white p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   border-bottom: 1px solid #CBC8BF;
   position: relative;
   z-index: 9;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 20px;
 }
 
 .main-topnav .bgTopNav .topNav .slide-nav {
@@ -852,7 +857,7 @@ footer .footer-white p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  gap: 25px;
+  gap: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -3423,9 +3428,6 @@ footer .footer-white p {
   .homeBanner .owl-carousel-banner .banner-item .bannerBox .btns-area .more span {
     font-size: 16px;
   }
-  .main-topnav .bannerBg .customMenu {
-    padding-top: 130px;
-  }
   .main-topnav .bannerBg .customMenu .Rsec .navigations li a {
     font-size: 30px;
     margin-bottom: 16px;
@@ -3674,6 +3676,19 @@ footer .footer-white p {
   .regions-details .main-sec .img-box.revSide {
     height: 600px;
   }
+  .homeBanner {
+    height: auto;
+  }
+  .homeBanner .owl-carousel-banner .banner-item {
+    height: 50vh;
+    padding-top: 4vh;
+  }
+  .main-topnav .bannerBg {
+    height: 70vh;
+  }
+  .main-topnav .bannerBg .customMenu .Rsec .navigations {
+    height: 23vh;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -3915,6 +3930,9 @@ footer .footer-white p {
   .E-servicesList .eServiceCard .content-box .hidden-area .btn-cont a span {
     font-size: 13px;
   }
+  .main-topnav .bannerBg .customMenu .Rsec .contactBtn {
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -3926,10 +3944,10 @@ footer .footer-white p {
     gap: 15px;
   }
   .main-topnav .bgTopNav .topNav .slide-nav {
-    width: 50px;
+    width: 95px;
   }
   .main-topnav .bgTopNav .topNav .slide-nav .menu-label {
-    display: none;
+    font-size: 10px;
   }
   .main-topnav .bgTopNav .topNav .mottemHdBtn {
     font-size: 12px;
@@ -4010,6 +4028,10 @@ footer .footer-white p {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .homeBanner .owl-carousel-banner .banner-item {
+    height: 60vh;
+    padding-top: 14vh;
+  }
 }
 
 @media (max-width: 574.98px) {
@@ -4025,7 +4047,6 @@ footer .footer-white p {
   }
   .main-topnav .bgTopNav .topNav .slide-nav {
     height: 30px;
-    width: 45px;
     padding: 10px 0 6px;
   }
   .main-topnav .bgTopNav .topNav .mottemHdBtn {
@@ -4242,7 +4263,7 @@ footer .footer-white p {
             align-items: center;
   }
   .main-topnav .bannerBg .customMenu {
-    padding-top: 100px;
+    padding-top: 140px;
     padding-right: 5%;
     padding-left: 5%;
   }
@@ -4475,6 +4496,10 @@ footer .footer-white p {
   }
   .regions-details .main-sec .img-box .big-img {
     width: 250px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item {
+    height: 82vh;
+    padding-top: 19vh;
   }
 }
 
