@@ -361,6 +361,9 @@
   .main-topnav .bannerBg .customMenu .Rsec .navigations{
     height: 23vh;
   }
+  .map-area .map-bg > div img{
+    object-position: 20%;
+  }
 }
 
 
@@ -654,6 +657,64 @@
   .main-topnav .bannerBg .customMenu .Rsec .contactBtn{
     margin-top: 15px;
   }
+  .interactive-map .map-cont .nav-pills .nav-link,
+  .interactive-map .map-cont .navigation-links a{
+    white-space: nowrap;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .interactive-map .map-cont .navigation-links,
+  .interactive-map .map-cont .nav-pills{
+    flex-wrap: nowrap;
+    justify-content: flex-start !important;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+  }
+  .interactive-map .map-cont .main-content{
+    margin-top: 50px;
+  }
+  .interactive-map .map-cont .nav-pills{
+    margin-bottom: 25px;
+  }
+  .interactive-map .map-cont .main-content h2{
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  .interactive-map .map-cont .tags-content {
+    margin-top: 30px;
+  }
+  .interactive-map .map-cont .tags-content h3 {
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.interactive-map .map-cont .tags-content .details p {
+  font-size: 12px;
+  line-height: 15px;
+}
+.interactive-map .map-cont .tags-content .details a.for-more{
+  margin-top: 15px;
+  padding: 8px 20px;
+  font-size: 12px;
+}
+.interactive-map .show-on-Map{
+  margin-top: 25px;
+}
+.interactive-map .show-on-Map a {
+  font-size: 13px;
+  padding: 8px 15px 10px;
+}
+.interactive-map .show-on-Map a .img-box{
+  width: 25px;
+  height: 25px;
+}
+.interactive-map .map-cont .navigation-links a{
+  font-size: 11px;
+}
+.interactive-map .map-cont .no-tags h4{
+  font-size: 22px;
+}
 }
 
 @media (max-width: 767.98px) {
@@ -746,7 +807,7 @@
     }
   }
   .map-area .map-bg > div img{
-    object-position: left;
+    object-position: 20%;
   }
   .modalSearch .modal-dialog .modal-content .SearchCustom{
     width: 100%;
@@ -766,6 +827,27 @@
     height: 60vh;
     padding-top: 14vh;
 }
+.interactive-map .map-cont .main-content h2 {
+  font-size: 16px !important;
+  margin-bottom: 20px !important;
+}
+.interactive-map .show-on-Map a {
+  font-size: 12px !important;
+  padding: 8px 13px 7px !important;
+}
+.interactive-map .map-cont .tags-content .details a.for-more {
+  padding: 8px 15px !important;
+  font-size: 12px !important;
+}
+.interactive-map .map-cont .tags-content h3,
+.interactive-map .map-cont .no-tags h4 {
+  font-size: 20px !important;
+}
+.interactive-map .map-cont .no-tags h4{
+  gap: 15px !important;
+  margin-bottom: 20px;
+}
+
 }
 
 
@@ -864,9 +946,12 @@
     padding: 0 !important;
   }
   .interactive-map .map-cont .nav-pills .nav-link{
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 11px;
+    line-height: 18px;
     padding: 9px 10px 6px;
+  }
+  .interactive-map .map-cont .navigation-links a{
+    font-size: 12px;
   }
   .interactive-map .map-cont .tags-content h3 {
     font-size: 24px;
